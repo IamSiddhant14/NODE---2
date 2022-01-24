@@ -1,0 +1,17 @@
+{
+  "_comment1": "This json file keeps a track to all packages installed in your project,and all the various dependies is been saved in agaist the key of dependencies",
+  "_comment2": "When we do git init then all the dependencies which is present in the pacakge.json file will automatically gets installed along with it  ",
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.5.2"
+  }
+}
