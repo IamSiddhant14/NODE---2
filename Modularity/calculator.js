@@ -16,6 +16,10 @@ function div(a , b){
     console.log("div is", a/b);
 }
 
+function noOperation(a, b){
+    console.log( a);
+}
+
 
 // add(1,3);
 
@@ -30,6 +34,7 @@ module.exports={
     addition: add,
     substract: sub,
     Multiply: product,
-    division: div
+    division: div,
+    noChange :noOperation
 }
 
